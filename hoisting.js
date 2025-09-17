@@ -18,6 +18,8 @@ console.log(getName)
 helo();
 
 
-// This means you can use variables and functions before they are actually declared in your code (though with some rules).
+// This means you can use variables and functions 
+// before they are actually declared in
+//  your code (though with some rules).
 
 
