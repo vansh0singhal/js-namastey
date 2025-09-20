@@ -47,7 +47,7 @@ promise.then(function(orderId){
 });
 
 //so now what we have did is like whenevr createOrder function execute and givethe 
-//data to the promise so until the promise is empty is exmpty nothing is going to happen
+//data to the promise so until the promise is empty nothing is going to happen
 //as soon as data comes from createOrder to promise than out promise instantly execute
 //prmise gives us this guarentee it will call this callback function as soon as the prmise is filled with data
 //in this case we have attached a callback to a promise
@@ -78,4 +78,5 @@ createOrder(order)
 })
 .then(function(){
     return updateWallet(paymentInfo);
-})
+}) 
+
